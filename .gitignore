@@ -1,0 +1,64 @@
+# Python-specific ignores
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+*.pyd
+*.pyo
+*.whl
+*.manifest
+*.spec
+__pycache__/
+.pytest_cache/
+*.lock
+*.log
+*.coverage
+.tox/
+.coverage.*
+.cache
+*.mypy_cache/
+*.dmypy.json
+.dmypy.json
+.ipynb_checkpoints
+
+# Ignore virtual environment directories
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Streamlit cache
+.streamlit/
+
+# Ignore vector store files
+faiss_index*
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore MacOS specific files
+.DS_Store
+
+# Ignore Thumbs.db (Windows)
+Thumbs.db
+
+# Ignore compiled code
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore other config and temporary files
+*.temp
+*.tmp
+*.bak
